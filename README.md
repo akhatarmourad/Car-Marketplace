@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack web application for a marketplace where users can buy, rent, and sell items. The app provides a seamless user experience with modern UI components and a robust backend. It utilizes React for the frontend, Clerk for authentication, Drizzle Eon for Ethereum integration, and Tailwind CSS with Shadcn UI for styling.
+This is a full-stack web application for a marketplace where users can buy, rent, and sell items. The app provides a seamless user experience with modern UI components and a robust backend. It utilizes React for the frontend, Clerk for authentication, Drizzle ORM for database management, and Neon Tech for cloud database solutions. Tailwind CSS and Shadcn UI are used for styling.
 
 ## Tech Stack
 
@@ -12,7 +12,8 @@ This is a full-stack web application for a marketplace where users can buy, rent
   - **Shadcn UI:** A library for customizable UI components.
 
 - **Backend:**
-  - **Drizzle Eon:** An Ethereum development framework for interacting with smart contracts.
+  - **Drizzle ORM:** An ORM for managing database operations with a focus on type safety and ease of use.
+  - **Neon Tech:** A serverless Postgres database service for scalable and managed database solutions.
 
 - **Authentication:**
   - **Clerk:** A user authentication service for managing user accounts and sessions.
