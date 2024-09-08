@@ -1,6 +1,7 @@
 
 import { UserButton, useUser } from "@clerk/clerk-react";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -27,7 +28,9 @@ const Header = () => {
             {isSignedIn ? (
                 <div className="flex items-center gap-4">
                     <UserButton />
-                    <Button className="submit-listing">Submit Listing</Button>
+                    <Link to={'/profile'}>
+                        <Button className="submit-listing">Submit Listing</Button>
+                    </Link>
                 </div>
             ) : (
                 <div>
